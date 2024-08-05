@@ -118,3 +118,8 @@ footer {
 
 
 /* Estilos para el botón en las tarjetas */
+.img-ajustada {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: 200px; /* Ajusta la altura fija de la imagen */
+    object-fit: cover; /* Recorta la imagen para llenar el contenedor manteniendo el aspecto */
+}
